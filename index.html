@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Sorteio Web</title>
+	</head>
+	<body>
+		<center>
+			<h1>Programa de Sorteio</h1>
+		</center>
+		<br />
+		<br />
+		<h3>Selecione uma opção abaixo:</h3>
+		<form action="/cgi-bin/selecao.py" method="POST">
+			<input type="radio" name="op" value="Adicionar" checked>Adicionar Participante<br />
+			<input type="radio" name="op" value="Listar">Listar Participante<br />
+			<input type="radio" name="op" value="Sortear">Sortear Participante<br />
+			<input type="radio" name="op" value="Limpar">Apagar TODOS Participante<br />
+			<input type="radio" name="op" value="LimparP">Apagar um Participante<br /><br />
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>

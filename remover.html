@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Sorteio Web</title>
+	</head>
+	<body>
+		<center>
+			<h1>Programa de Sorteio</h1>
+		</center>
+			<br />
+			<br />
+			<h2>Para remover um usuário digite o seu nome completo:</h2>
+			<h3>Atenção: Procedimento Irreversível</h3>
+			<form action="/cgi-bin/remover.py" method="POST">
+				Nome Completo:<br />
+				<input type="text" name="nome" required><br />
+				<br />
+				<br />
+				<input type="submit" value="Apagar">
+			</form>
+			<a href="http://localhost:8080">Voltar</a>
+	</body>
+</html>
